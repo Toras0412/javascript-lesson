@@ -8,7 +8,7 @@ console.log(itimonme);
 
 // Q2
 
-let languages = ['JavaScript','PHP','Ruby','Python','Go'];
+let languages = ['JavaScript', 'PHP', 'Ruby', 'Python', 'Go'];
 
 let nimonme = `私の好きな言語は${languages[0]}です。次は${languages[3]}を勉強してみたいです。`;
 
@@ -102,24 +102,24 @@ let calc = {
 // 1
 let x = 5
 let y = 2
-calc.add(x,y);
+calc.add(x, y);
 
 // 2
 
 x = 12
 y = 2
-calc.subtract(x,y);
+calc.subtract(x, y);
 
 // 3
 x = 7
 y = 7
-calc.multiply(x,y);
+calc.multiply(x, y);
 
 
 // 4
 x = 25
 y = 5
-calc.divide(x,y);
+calc.divide(x, y);
 
 // Q9
 
@@ -131,10 +131,29 @@ function remainder () {
 x = 5
 y = 3
 
-let mondai =  `${x}を${y}で割った余りは${remainder()}です。`;
+let mondai =  `${x}を${y}で割った余りは${remainder(x, y)}です。`;
 console.log(mondai);
 
 // Q10
 
 // xを関数の中で定義しているためスコープがローカル変数のため
 // 関数を呼び出してこないと参照できない
+
+
+// 発展編
+// Q1
+let random = Math.floor(Math.random()*10);
+console.log(random);
+// Q2
+function HelloWorld () {
+console.log('Hello World!');
+}
+
+setTimeout(HelloWorld,3000);
+
+// Q3
+
+
+// Q4
+// Q5
+
