@@ -123,9 +123,8 @@ calc.divide(x, y);
 
 // Q9
 
-function remainder () {
-  let amari = x % y;
-  return amari;
+function remainder (x, y) {
+  return  x % y;
 }
 
 x = 5
