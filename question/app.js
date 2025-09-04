@@ -1,5 +1,6 @@
 
 // Q1
+
 let nickname = 'あさ だい';
 let age = '26';
 let itimonme = '私のニックネームは' + nickname + 'です。年齢は' + age + '歳です.'
@@ -142,8 +143,11 @@ console.log(mondai);
 // 発展編
 // Q1
 let random = Math.floor(Math.random()*10);
+
 console.log(random);
+
 // Q2
+
 function HelloWorld () {
 console.log('Hello World!');
 }
@@ -152,7 +156,63 @@ setTimeout(HelloWorld,3000);
 
 // Q3
 
+// 1
+let num = 1;
+
+if (num > 0) {
+  console.log('num is greater than 0');
+} else if (num < 0) {
+  console.log('num is less than 0');
+} else if (num === 0) {
+  console.log('num is 0');
+}
+
+// 2
+num = -1;
+
+if (num > 0) {
+  console.log('num is greater than 0');
+} else if (num < 0) {
+  console.log('num is less than 0');
+} else if (num === 0) {
+  console.log('num is 0');
+}
+
+// 3
+num = 0;
+
+if (num > 0) {
+  console.log('num is greater than 0');
+} else if (num < 0) {
+  console.log('num is less than 0');
+} else if (num === 0) {
+  console.log('num is 0');
+}
 
 // Q4
+let numbers = [];
+
+for (let i = 0; i < 100; i++) {
+  numbers.push(i);
+}
+
+console.log(numbers);
+
 // Q5
+
+let mixed = [4, '2', 5, '8', '9', 0, 1];
+
+for (let item of mixed) {
+  if (typeof item === 'number') {
+    if (item % 2 === 0) {
+      console.log('even');
+    } else {
+      console.log('odd');
+    }
+  } else {
+    console.log('not number');
+  }
+}
+
+
 
